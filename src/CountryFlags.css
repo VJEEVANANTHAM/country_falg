@@ -1,0 +1,33 @@
+/* src/CountryFlags.css */
+.country-flags-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.country-flag {
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 150px; /* Set a fixed width for consistency */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.country-flag img {
+  width: 100px; /* Set a fixed width for the flag image */
+  height: 60px; /* Set a fixed height for the flag image */
+  object-fit: cover;
+}
+
+.country-flag p {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  word-wrap: break-word; /* Ensure long names wrap to the next line */
+  text-align: center; /* Center-align the text */
+}
